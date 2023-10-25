@@ -1,0 +1,102 @@
+@font-face{font-family:"Poppins";src:url("fonts/Poppins-ExtraLightItalic.ttf");}[class~=tabs]{margin-bottom:.208333333in;}body{background-image:linear-gradient(to top left,#525252,#202020,#000000);}[class~=tab-button],[class~=tab-content]{padding-left:1.25pc;}[class~=tab-button]{padding-bottom:7.5pt;}[class~=tab-button],[class~=tab-content]{padding-right:1.25pc;}body{font-family:"Poppins",sans-serif;}nav a:hover,a,[class~=tab-button][class~=active]{color:#fff;}[class~=tab-button]{padding-top:7.5pt;}[class~=tab-button]{border-left-width:medium;}[class~=tab-button]{border-bottom-width:medium;}[class~=tab-button]{border-right-width:medium;}ul{display:flex;}[class~=tab-button][class~=active]{background-color:#007bff;}[class~=tab-button]{border-top-width:medium;}[class~=tab-button]{border-left-style:none;}ul{justify-content:space-between;}ul{list-style-type:none;}ul{align-items:center;}ul{padding-left:.166666667in;}[class~=tab-button]{border-bottom-style:none;}ul{padding-bottom:.166666667in;}[class~=tab-button]{border-right-style:none;}ul{padding-right:.166666667in;}[class~=tab-button]{border-top-style:none;}[class~=tab-button]{border-left-color:currentColor;}[class~=tab-button]{border-bottom-color:currentColor;}[class~=tab-button]{border-right-color:currentColor;}[class~=tab-button]{border-top-color:currentColor;}[class~=tab-button]{border-image:none;}ul{padding-top:.166666667in;}[class~=tab-button]{background-color:#f5f5f5;}[class~=tab-button]{cursor:pointer;}[class~=tab-button]{transition:background-color .2s;}[class~=tab-content]{border-left-width:.75pt;}[class~=tab-content]{border-bottom-width:.75pt;}[class~=tab-content]{border-right-width:.75pt;}[class~=tab-content]{border-top-width:.75pt;}a{text-decoration:none;}[class~=tab-content]{border-left-style:solid;}[class~=tab-content]{border-bottom-style:solid;}a{width:.208333333in;}[class~=tab-content]{border-right-style:solid;}[class~=tab-content]{border-top-style:solid;}[class~=tab-content]{border-left-color:#000;}[class~=tab-content]{border-bottom-color:#000;}[class~=tab-content]{border-right-color:#000;}[class~=tab-content]{border-top-color:#000;}[class~=tab-content]{border-image:none;}[class~=tab-content]{padding-bottom:.208333333in;}[class~=tab-content]{padding-top:.208333333in;}[class~=tab-content]{width:80vw;}[class~=tab-content]{max-width:300pt;}[class~=container]{padding-left:.520833333in;}[class~=container]{padding-bottom:0pt;}[class~=container]{padding-right:.520833333in;}[class~=container]{padding-top:0pt;}nav a{font-size:.166666667in;}
+
+@media (max-width:900px){
+    .celular2, .celular{
+        display: none;
+    }
+    .info-topo{
+        justify-content: center;
+        height: 100%;
+        align-items: center;
+        margin:0;
+    }
+    .texto-topo {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .texto-topo {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .subtitulo2 {
+        text-align: center;
+    }
+    .navegacao a {
+        padding: 10px;
+    }
+    .botao-apps {
+        justify-content: center;
+    }
+    .titulo{
+        text-align: center;
+    }
+    .text{
+        text-align: center;
+    }
+    .text-bussines{
+        text-align: center;
+    }
+}
+@media (max-width:760px){
+    .container-navegacao {
+        flex-wrap: wrap;        
+        justify-content: center;
+    }
+    .logo {
+        padding: 0 5px;
+        margin-bottom: 6px;
+    }
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+    .tipo-servicos {
+        margin-bottom: 20px;
+        width: 100%;
+        max-width: 425px;
+        padding: 0;
+    }
+}
+@media(max-width:676px){
+    .navegacao {
+        max-width: 100%;
+        justify-content: center;
+    }
+    .works{
+        font-size: 35px;
+    }
+}
+@media(max-width:462px){    
+    .info-topo {
+        max-width: 290px;       
+    }
+    .texto-topo {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .titulo {
+        font-size: 32px;
+    }
+    .text {
+        width: 280px;
+        margin: 15px 0;
+    }
+    .botao-apps {
+        flex-direction: column;        
+        width: 100%;
+    }
+    .botaoapp{
+        max-width: 100%;
+    }
+}
+@media(max-width:436px){
+    .tipo-servicos {
+        max-width: 275px;
+    }
+}

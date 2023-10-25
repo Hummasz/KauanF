@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abas de Jogos Hummasz</title>
+    <link rel="stylesheet" href="abajogos.css">
+    <link rel="shortcut icon" href="favicon/icogame.png" type="image/x-icon">
+</head>
+<body>
+    <div class="tabs">
+        <button class="tab-button active" onclick="changeTab('jogo1')">Jogo De Treinar Mira</button>
+        <button class="tab-button" onclick="changeTab('jogo2')">Jogo Quebra-cabeça</button>
+
+        <!-- Adicione mais botões para novos jogos aqui -->
+    </div>
+
+    <div class="container">
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Sobre</a>
+                </li>
+                <li>
+                    <a href="project.html">Projetos</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contato</a>
+                </li>
+                <li>
+                    <a href="abajogos.html">Jogos Hummasz</a>
+                </li>
+            </ul>
+        </nav>
+
+<!--Começo do html do jogo 1-->
+
+<div class="tab-content" id="jogo1">
+        <title>Jogo Quadrado Hummasz</title>
+        <link rel="stylesheet" href="jogo.css">
+    </head>
+    <body>
+        <div id="gameArea">
+            <div id="square"></div>
+        </div>
+        <script src="jogo.js"></script>
+    </body>
+</html>
+</div>
+
+<!--Final do html do jogo 1-->
+
+<!--Começo do html do jogo 2-->
+
+<div class="tab-content" id="jogo2" style="display: none;">
+    <title>Jogo Quebra-cabeça</title>
+    <link rel="stylesheet" href="quebracabeça.css">
+</head>
+</head>
+<body>
+    <div class="puzzle">
+        <div class="tile" data-value="1">1</div>
+        <div class="tile" data-value="2">2</div>
+        <div class="tile" data-value="3">3</div>
+        <div class="tile" data-value="4">4</div>
+        <div class="tile" data-value="5">5</div>
+        <div class="tile" data-value="6">6</div>
+        <div class="tile" data-value="7">7</div>
+        <div class="tile" data-value="8">8</div>
+        <div class="tile empty" data-value="9"></div>
+    </div>
+
+    <button onclick="shufflePuzzle()">Embaralhar</button>
+
+    <script src="quebracabeça.js"></script>
+</body>
+
+<!--Final do html do jogo 2-->
+
+</div>
+
+    <!-- Adicione mais divs para novos jogos aqui -->
+
+    <script src="abajogos.js"></script>
+</body>
+</html>

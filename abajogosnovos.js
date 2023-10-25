@@ -1,0 +1,1 @@
+function changeTab(a){const b=document.querySelectorAll(".tab-content"),c=document.querySelectorAll(".tab-button");b.forEach(a=>a.style.display="none"),c.forEach(a=>a.classList.remove("active")),document.getElementById(a).style.display="block",Array.from(c).find(b=>`changeTab('${a}')`===b.getAttribute("onclick")).classList.add("active")}

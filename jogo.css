@@ -1,0 +1,123 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:linear-gradient(to top left,#525252,#202020,#000000);
+}
+
+#gameArea {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border: 2px solid #333;
+}
+
+#square {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #007BFF;
+    transition: all 0.2s;
+}
+
+@media (max-width:900px){
+    .celular2, .celular{
+        display: none;
+    }
+    .info-topo{
+        justify-content: center;
+        height: 100%;
+        align-items: center;
+        margin:0;
+    }
+    .texto-topo {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .texto-topo {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .subtitulo2 {
+        text-align: center;
+    }
+    .navegacao a {
+        padding: 10px;
+    }
+    .botao-apps {
+        justify-content: center;
+    }
+    .titulo{
+        text-align: center;
+    }
+    .text{
+        text-align: center;
+    }
+    .text-bussines{
+        text-align: center;
+    }
+}
+@media (max-width:760px){
+    .container-navegacao {
+        flex-wrap: wrap;        
+        justify-content: center;
+    }
+    .logo {
+        padding: 0 5px;
+        margin-bottom: 6px;
+    }
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+    .tipo-servicos {
+        margin-bottom: 20px;
+        width: 100%;
+        max-width: 425px;
+        padding: 0;
+    }
+}
+@media(max-width:676px){
+    .navegacao {
+        max-width: 100%;
+        justify-content: center;
+    }
+    .works{
+        font-size: 35px;
+    }
+}
+@media(max-width:462px){    
+    .info-topo {
+        max-width: 290px;       
+    }
+    .texto-topo {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .titulo {
+        font-size: 32px;
+    }
+    .text {
+        width: 280px;
+        margin: 15px 0;
+    }
+    .botao-apps {
+        flex-direction: column;        
+        width: 100%;
+    }
+    .botaoapp{
+        max-width: 100%;
+    }
+}
+@media(max-width:436px){
+    .tipo-servicos {
+        max-width: 275px;
+    }
+}

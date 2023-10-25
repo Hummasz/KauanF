@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abas de Jogos Hummasz</title>
+    <link rel="stylesheet" href="abajogosnovos.css">
+    <link rel="shortcut icon" href="favicon/icogame.png" type="image/x-icon">
+</head>
+<body>
+    <div class="tabs">
+        <button class="tab-button active" onclick="changeTab('jogo1')">Jogo Da Velha</button>
+        <!--<button class="tab-button" onclick="changeTab('jogo2')">Jogo Quebra-cabeça</button>
+
+        <!-- Adicione mais botões para novos jogos aqui -->
+    </div>
+
+    <div class="container">
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Sobre</a>
+                </li>
+                <li>
+                    <a href="project.html">Projetos</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contato</a>
+                </li>
+                <li>
+                    <a href="abajogos.html">Jogos Hummasz</a>
+                </li>
+                <li>
+                    <a href="abajogosnovos.html">Jogos Novos</a>
+                </li>
+            </ul>
+        </nav>
+
+<!--Começo do html do jogo 1-->
+<div class="tab-content" id="jogo1">
+    <link rel="stylesheet" href="games/jogodavelhagame/style.css">
+</head>
+
+    <body>
+    <h1>Jogo Da Velha</h1>
+    <div id="container">
+        <div class="block">
+            <div id="box1" class="box top left">
+                <span data-player="none" onclick="play(this)">&nbsp;</span>
+            </div>
+            <div id="box2" class="box top">
+                <span data-player="none" onclick="play(this)">&nbsp;</span>
+            </div>
+            <div id="box3" class="box top right">
+                <span data-player="none" onclick="play(this)">&nbsp;</span>
+            </div>
+        </div>
+        <div class="block">
+            <div id="box4" class="box left">
+                <span data-player="none" onclick="play(this)">&nbsp;</span>
+            </div>
+            <div id="box5" class="box">
+                <span data-player="none" onclick="play(this)">&nbsp;</span>
+            </div>
+            <div id="box6" class="box right">
+                <span data-player="none" onclick="play(this)">&nbsp;</span>
+            </div>
+        </div>
+        <div class="block">
+            <div id="box7" class="box bottom left">
+                <span data-player="none" onclick="play(this)">&nbsp;</span>
+            </div>
+            <div id="box8" class="box bottom">
+                <span data-player="none" onclick="play(this)">&nbsp;</span>
+            </div>
+            <div id="box9" class="box bottom right">
+                <span data-player="none" onclick="play(this)">&nbsp;</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="games/jogodavelhagame/index.js"></script>
+</body>
+
+<!--Final do html do jogo 1-->
+
+    <!-- Adicione mais divs para novos jogos aqui -->
+
+    <script src="abajogosnovos.js"></script>
+</body>
+</html>
